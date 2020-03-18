@@ -1,0 +1,6 @@
+framework module SSRequestDirect {
+  umbrella header "SSRequestDirect-umbrella.h"
+
+  export *
+  module * { export * }
+}
