@@ -13,6 +13,9 @@
 		17AFC8B32420D4240012B985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17AFC8B22420D4240012B985 /* Assets.xcassets */; };
 		17AFC8B62420D4240012B985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17AFC8B42420D4240012B985 /* LaunchScreen.storyboard */; };
 		17AFC8B92420D4240012B985 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AFC8B82420D4240012B985 /* main.m */; };
+		17F803592421E4EF004193E0 /* FFHomeApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F803572421E4EF004193E0 /* FFHomeApi.m */; };
+		17F8035A2421E4EF004193E0 /* FFHomePostApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F803582421E4EF004193E0 /* FFHomePostApi.m */; };
+		17F8035D2421E534004193E0 /* NSString+FFHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F8035B2421E534004193E0 /* NSString+FFHome.m */; };
 		D7B59A707FFDEF4F93596FA5 /* Pods_SSRequestDirect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A6578A840033BB21C6CF1A /* Pods_SSRequestDirect.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,12 @@
 		17AFC8B52420D4240012B985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17AFC8B72420D4240012B985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17AFC8B82420D4240012B985 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17F803552421E4EF004193E0 /* FFHomePostApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHomePostApi.h; sourceTree = "<group>"; };
+		17F803562421E4EF004193E0 /* FFHomeApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHomeApi.h; sourceTree = "<group>"; };
+		17F803572421E4EF004193E0 /* FFHomeApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHomeApi.m; sourceTree = "<group>"; };
+		17F803582421E4EF004193E0 /* FFHomePostApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHomePostApi.m; sourceTree = "<group>"; };
+		17F8035B2421E534004193E0 /* NSString+FFHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FFHome.m"; sourceTree = "<group>"; };
+		17F8035C2421E534004193E0 /* NSString+FFHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FFHome.h"; sourceTree = "<group>"; };
 		19A6578A840033BB21C6CF1A /* Pods_SSRequestDirect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSRequestDirect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FACA0C412AFC7E029005CDD /* Pods-SSRequestDirect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSRequestDirect.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSRequestDirect/Pods-SSRequestDirect.release.xcconfig"; sourceTree = "<group>"; };
 		654BDFB5762F80DD2B96018E /* Pods-SSRequestDirect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSRequestDirect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSRequestDirect/Pods-SSRequestDirect.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +78,12 @@
 				17AFC8A72420D4240012B985 /* AppDelegate.m */,
 				17AFC8AC2420D4240012B985 /* ViewController.h */,
 				17AFC8AD2420D4240012B985 /* ViewController.m */,
+				17F803562421E4EF004193E0 /* FFHomeApi.h */,
+				17F803572421E4EF004193E0 /* FFHomeApi.m */,
+				17F803552421E4EF004193E0 /* FFHomePostApi.h */,
+				17F803582421E4EF004193E0 /* FFHomePostApi.m */,
+				17F8035C2421E534004193E0 /* NSString+FFHome.h */,
+				17F8035B2421E534004193E0 /* NSString+FFHome.m */,
 				17AFC8AF2420D4240012B985 /* Main.storyboard */,
 				17AFC8B22420D4240012B985 /* Assets.xcassets */,
 				17AFC8B42420D4240012B985 /* LaunchScreen.storyboard */,
@@ -237,6 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				17AFC8AE2420D4240012B985 /* ViewController.m in Sources */,
+				17F803592421E4EF004193E0 /* FFHomeApi.m in Sources */,
+				17F8035D2421E534004193E0 /* NSString+FFHome.m in Sources */,
+				17F8035A2421E4EF004193E0 /* FFHomePostApi.m in Sources */,
 				17AFC8A82420D4240012B985 /* AppDelegate.m in Sources */,
 				17AFC8B92420D4240012B985 /* main.m in Sources */,
 			);

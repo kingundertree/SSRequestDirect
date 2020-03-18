@@ -14,9 +14,6 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - SSRequestDirect (0.0.1):
-    - SSRequstHandler
-    - SwiftyJSON
   - SSRequstHandler (0.0.1):
     - AFNetworking
     - SSRequstHandler/Category (= 0.0.1)
@@ -63,22 +60,18 @@ PODS:
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
-  - SSRequestDirect (from `../../SSRequestDirect`)
   - SSRequstHandler (from `../../SSRequstHandler`)
   - SwiftyJSON (= 5.0.0)
 
 EXTERNAL SOURCES:
-  SSRequestDirect:
-    :path: ../../SSRequestDirect
   SSRequstHandler:
     :path: ../../SSRequstHandler
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  SSRequestDirect: a166deed12df0d17a46faee29ccbee1640d3d621
   SSRequstHandler: ee4ad0a69faa6bfdc4ab2a07788fdb430763decf
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 1dd3a127df5ca153ed42f83e0637458105445ff4
+PODFILE CHECKSUM: 44ac60bc932f8b4e5fd86d5b08e3d3f72635a906
 
 COCOAPODS: 1.4.0

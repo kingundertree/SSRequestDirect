@@ -8,6 +8,6 @@
 #ifndef SSRequestDirect_h
 #define SSRequestDirect_h
 
-#import "SSRequestHandler.h"
+//#import "SSRequestHandler.h"
 
 #endif /* SSRequestDirect_h */

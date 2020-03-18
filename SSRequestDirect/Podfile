@@ -10,5 +10,5 @@ project 'SSRequestDirect'
 target 'SSRequestDirect' do
     pod 'SwiftyJSON', '5.0.0'
     pod 'SSRequstHandler', :path => '../../SSRequstHandler'
-    pod 'SSRequestDirect', :path => '../../SSRequestDirect'
+#    pod 'SSRequestDirect', :path => '../../SSRequestDirect'
 end

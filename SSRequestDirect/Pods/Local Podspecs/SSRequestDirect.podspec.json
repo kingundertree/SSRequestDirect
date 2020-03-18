@@ -17,7 +17,6 @@
   },
   "source_files": "Sources/*.h",
   "public_header_files": "Sources/*.h",
-  "static_framework": true,
   "dependencies": {
     "SSRequstHandler": [
 
@@ -25,5 +24,12 @@
     "SwiftyJSON": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Sources/Core/*.{h,m,swift}",
+      "public_header_files": "Sources/Core/*.h"
+    }
+  ]
 }
