@@ -21,17 +21,17 @@ public class ViewControllerSwift: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .green
         
-        let bizContent: Dictionary = ["UserId": NSNumber(value: 0)]
+        let bizContent: [String : Any] = ["UserId": NSNumber(value: 0)]
         let bizContentStr = NSString.jsonString(with: bizContent)
-        let initDic: Dictionary = ["method" : "HomePageManager.GetHomePageInfo",
-                                   "bizContent" : bizContentStr,
+        let initDic: [String : Any] = ["method" : "HomePageManager.GetHomePageInfo",
+                                       "bizContent" : bizContentStr ?? [:],
         "module": "appguide",
         "version": "3.0",
         "clientVersion": "6.4.2"]
         
         let api =  makeLifeStyleAPI("/gateway", method: .GET)
         api.arguments = initDic
-        api.requestResult { [weak self] (result) in
+        api.requestResult { (result) in
             result.withValue { (json) in
                 // todo
                 print("json.string==>>%@", json.string ?? "")

@@ -33,11 +33,11 @@
     [SSRequestSettingConfig defaultSettingConfig].isShowDebugInfo = true;
     
     
-//    [self doGetRequest];
+    [self doGetRequest];
 //    [self doPostRequest];
     
-    ViewControllerSwift *vc = [[ViewControllerSwift alloc] init];
-    [self.navigationController pushViewController:vc animated:true];
+//    ViewControllerSwift *vc = [[ViewControllerSwift alloc] init];
+//    [self.navigationController pushViewController:vc animated:true];
 }
 
 - (void)doGetRequest {
@@ -52,12 +52,15 @@
     FFHomeApi *homeApi = [[FFHomeApi alloc] initWithPath:@"/gateway" queries:initDic];
     __weak typeof(self) this = self;
     [homeApi requestWithCompletionBlock:^(SSResponse * _Nonnull response, NSError * _Nonnull error) {
-        // todo
         if (!error) {
-            NSDictionary *responseDic = response.responseDic;
-            // todo 业务
+            [this responseHandler:response];
         }
     }];
+}
+
+- (void)responseHandler:(SSResponse *)response {
+    NSDictionary *responseDic = response.responseDic;
+    NSLog(@"responseDic==>>%@", responseDic);
 }
 
 - (void)doPostRequest {
@@ -74,8 +77,7 @@
     [homeApi requestWithCompletionBlock:^(SSResponse * _Nonnull response, NSError * _Nonnull error) {
         // todo
         if (!error) {
-            NSDictionary *responseDic = response.responseDic;
-            // todo 业务
+            [this responseHandler:response];
         }
     }];
 }
