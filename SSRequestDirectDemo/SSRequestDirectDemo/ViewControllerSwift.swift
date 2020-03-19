@@ -13,9 +13,13 @@ import SSRequestDirect
 @objc
 public class ViewControllerSwift: UIViewController {
     
-    func viewDidload() {
+    public override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
+    
+    public override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .orange
+        view.backgroundColor = .green
         
         let bizContent: Dictionary = ["UserId": NSNumber(value: 0)]
         let bizContentStr = NSString.jsonString(with: bizContent)
@@ -26,11 +30,11 @@ public class ViewControllerSwift: UIViewController {
         "clientVersion": "6.4.2"]
         
         let api =  makeLifeStyleAPI("/gateway", method: .GET)
-        api.queries = initDic as? NSMutableDictionary
+        api.arguments = initDic
         api.requestResult { [weak self] (result) in
             result.withValue { (json) in
                 // todo
-                print("error==>>%@", json.string ?? "")
+                print("json.string==>>%@", json.string ?? "")
             }.withError { (error) in
                 // todo
                 print("error==>>%@",error)

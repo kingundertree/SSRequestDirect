@@ -30,7 +30,7 @@ public class SSRequestDirectAPI: SSBaseApi, NSCopying {
 
     public func copy(with zone: NSZone? = nil) -> Any {
         let api = type(of: self).init()
-        api.queries = self.queries
+        api.arguments = self.arguments
         api.method = self.method
         api.requestSerizalType = self.requestSerizalType
         api.responseSerizalType = self.responseSerizalType
@@ -44,7 +44,7 @@ public class SSRequestDirectAPI: SSBaseApi, NSCopying {
     required public override init() {
         super.init()
     }
-
+    
     public subscript(key: String) -> Any? {
         get {
             return self.arguments[key]
@@ -69,7 +69,7 @@ public class SSRequestDirectAPI: SSBaseApi, NSCopying {
     override public func requestArgument() -> Any {
         return self.arguments
     }
-
+    
     override public func requestSerializerType() -> SSRequestSerializerType {
         return requestSerizalType
     }

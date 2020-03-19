@@ -22,6 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor orangeColor];
     NSLog(@"ViewController did launch");
     
     [SSRequestSettingConfig defaultSettingConfig].appId = @"100001";
