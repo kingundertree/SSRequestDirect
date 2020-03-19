@@ -9,6 +9,8 @@ project 'SSRequestDirectDemo'
 
 target 'SSRequestDirectDemo' do
     pod 'SwiftyJSON', '5.0.0'
-    pod 'SSRequstHandler', :path => '../../SSRequstHandler'
-    pod 'SSRequestDirect', :path => '../../SSRequestDirect'
+    pod 'SSRequstHandler', :git => 'git@github.com:kingundertree/SSRequstHandler.git', :tag => '0.0.1'
+    pod 'SSRequestDirect', :git => 'git@github.com:kingundertree/SSRequestDirectDemo.git', :tag => '0.0.1'
+#    pod 'SSRequstHandler', :path => '../../SSRequstHandler'
+#    pod 'SSRequestDirect', :path => '../../SSRequestDirect'
 end
