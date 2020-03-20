@@ -10,8 +10,5 @@
 
 @implementation FFHomeApi
 
-- (SSRequestService *)service {
-    return [[SSRequestService alloc] initWithBaseUrl:@"https://wx.freshfresh.com"];
-}
 
 @end

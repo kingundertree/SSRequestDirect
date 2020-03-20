@@ -9,7 +9,7 @@ import Foundation
 import SwiftyJSON
 import SSRequstHandler
 
-public func makeLifeStyleAPI(_ path: String,
+public func makeAPI(_ path: String,
                              method: SSRequestMethod = .GET) -> SSRequestDirectAPI {
     let api = SSRequestDirectAPI()
     api.path = path

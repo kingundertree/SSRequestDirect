@@ -31,6 +31,7 @@
     [SSRequestSettingConfig defaultSettingConfig].secret = @"eiifs9wesdfsjes";
     [SSRequestSettingConfig defaultSettingConfig].plugins = @[[SSRequestTokenPlugin new], [SSRequestSignPlugin new], [SSRequestErrorFilterPlugin new]];
     [SSRequestSettingConfig defaultSettingConfig].isShowDebugInfo = true;
+    [SSRequestSettingConfig defaultSettingConfig].service = [[SSRequestService alloc] initWithBaseUrl:@"https://**.******.com"];
     
     
     [self doGetRequest];
@@ -42,7 +43,7 @@
 
 - (void)doGetRequest {
     NSDictionary *bizContent = @{@"UserId":[NSNumber numberWithInteger:0]};
-    NSDictionary *initDic = @{@"method" : @"HomePageManager.GetHomePageInfo",
+    NSDictionary *initDic = @{@"method" : @"*******",
                               @"bizContent" : [NSString jsonStringWithDictionary:bizContent],
                               @"module": @"appguide",
                               @"version": @"3.0",
@@ -54,6 +55,8 @@
     [homeApi requestWithCompletionBlock:^(SSResponse * _Nonnull response, NSError * _Nonnull error) {
         if (!error) {
             [this responseHandler:response];
+        } else {
+            // todo
         }
     }];
 }

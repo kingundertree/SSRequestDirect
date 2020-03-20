@@ -56,32 +56,22 @@ PODS:
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
-  - SSRequestDirect (from `git@github.com:kingundertree/SSRequestDirectDemo.git`, tag `0.0.1`)
-  - SSRequstHandler (from `git@github.com:kingundertree/SSRequstHandler.git`, tag `0.0.1`)
+  - SSRequestDirect (from `../../SSRequestDirect`)
+  - SSRequstHandler (from `../../SSRequstHandler`)
   - SwiftyJSON (= 5.0.0)
 
 EXTERNAL SOURCES:
   SSRequestDirect:
-    :git: git@github.com:kingundertree/SSRequestDirectDemo.git
-    :tag: 0.0.1
+    :path: ../../SSRequestDirect
   SSRequstHandler:
-    :git: git@github.com:kingundertree/SSRequstHandler.git
-    :tag: 0.0.1
-
-CHECKOUT OPTIONS:
-  SSRequestDirect:
-    :git: git@github.com:kingundertree/SSRequestDirectDemo.git
-    :tag: 0.0.1
-  SSRequstHandler:
-    :git: git@github.com:kingundertree/SSRequstHandler.git
-    :tag: 0.0.1
+    :path: ../../SSRequstHandler
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  SSRequestDirect: c42a7c86d8527510647e67be558ff82df2c43214
-  SSRequstHandler: 0860fff110b540363baf6233107ad313f04e3f71
+  SSRequestDirect: c7ae14ed8885b3449ef4899f0e7271b052b6776e
+  SSRequstHandler: f75db5885faf7b9497c58b1e4730b0a5d8ae7c13
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 3568e5325a006204b495805da99bec52ac1d7466
+PODFILE CHECKSUM: d3d6e32bb00171df27c87519fa89633b7bf18042
 
 COCOAPODS: 1.4.0

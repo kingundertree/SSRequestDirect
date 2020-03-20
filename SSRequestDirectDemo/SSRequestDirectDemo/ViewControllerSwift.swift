@@ -23,13 +23,13 @@ public class ViewControllerSwift: UIViewController {
         
         let bizContent: [String : Any] = ["UserId": NSNumber(value: 0)]
         let bizContentStr = NSString.jsonString(with: bizContent)
-        let initDic: [String : Any] = ["method" : "HomePageManager.GetHomePageInfo",
+        let initDic: [String : Any] = ["method" : "*******",
                                        "bizContent" : bizContentStr ?? [:],
-        "module": "appguide",
-        "version": "3.0",
-        "clientVersion": "6.4.2"]
+                                       "module": "appguide",
+                                       "version": "3.0",
+                                       "clientVersion": "6.4.2"]
         
-        let api =  makeLifeStyleAPI("/gateway", method: .GET)
+        let api =  makeAPI("/gateway", method: .GET)
         api.arguments = initDic
         api.requestResult { (result) in
             result.withValue { (json) in
