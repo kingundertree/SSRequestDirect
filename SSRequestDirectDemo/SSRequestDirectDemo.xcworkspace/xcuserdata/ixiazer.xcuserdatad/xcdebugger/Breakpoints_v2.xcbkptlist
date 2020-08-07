@@ -29,69 +29,6 @@
             endingLineNumber = "128"
             landmarkName = "-_sessionTaskFor:error:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B4EA2B33-CDF8-4BF2-9BCD-96B74534B4F6 - 3c85438093053839"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[SSRequestHandlerManager _sessionTaskFor:error:]"
-                  moduleName = "SSRequstHandler"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ixiazer/Documents/2020%20iOS%E5%AD%A6%E4%B9%A0project/SSRequstHandler/Sources/SSRequestHandler/SSRequestHandlerManager.h.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "128"
-                  endingLineNumber = "128"
-                  offsetFromSymbolStart = "319">
-               </Location>
-               <Location
-                  uuid = "B4EA2B33-CDF8-4BF2-9BCD-96B74534B4F6 - 20270ed7ebc53c49"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__Block_byref_object_copy_"
-                  moduleName = "SSRequstHandler"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ixiazer/Documents/2020%20iOS%E5%AD%A6%E4%B9%A0project/SSRequstHandler/Sources/SSRequestHandler/SSRequestHandlerManager.h.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "128"
-                  endingLineNumber = "128"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  uuid = "B4EA2B33-CDF8-4BF2-9BCD-96B74534B4F6 - ec09e16169fdf808"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__Block_byref_object_dispose_"
-                  moduleName = "SSRequstHandler"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ixiazer/Documents/2020%20iOS%E5%AD%A6%E4%B9%A0project/SSRequstHandler/Sources/SSRequestHandler/SSRequestHandlerManager.h.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "128"
-                  endingLineNumber = "128"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D4B7586E-61F9-4476-9721-177DC3E255B3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../SSRequstHandler/Sources/SSRequestPlugin/SSRequestSignPlugin.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "-prepareRequestForBaseApi:baseApi:"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -113,16 +50,176 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B7A4A79F-7208-4798-A480-B926D0B4CAD9"
+            uuid = "5B0F3624-B43A-480F-91A7-2803B95EEA53"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SSRequestDirectDemo/ViewControllerSwift.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B0F3624-B43A-480F-91A7-2803B95EEA53 - 2c1af71a5cfd52c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SSRequestDirect.SSResult&lt;SwiftyJSON.JSON&gt;) -&gt; () in SSRequestDirectDemo.ViewControllerSwift.viewDidLoad() -&gt; ()"
+                  moduleName = "SSRequestDirectDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ixiazer/Documents/2020-project/SSRequestDirect/SSRequestDirectDemo/SSRequestDirectDemo/ViewControllerSwift.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  uuid = "5B0F3624-B43A-480F-91A7-2803B95EEA53 - f65c64dc88834e94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in closure #1 (SSRequestDirect.SSResult&lt;SwiftyJSON.JSON&gt;) -&gt; () in SSRequestDirectDemo.ViewControllerSwift.viewDidLoad() -&gt; ()"
+                  moduleName = "SSRequestDirectDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ixiazer/Documents/2020-project/SSRequestDirect/SSRequestDirectDemo/SSRequestDirectDemo/ViewControllerSwift.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "58">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5AAB7FA-1A8C-4330-A758-CCE359DEA70A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Sources/Core/SSRequestDirect+EXT.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "init(request:transform:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AFA88D0-9D41-4CE0-9300-D20CC342A023"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Sources/Core/SSRequestDirect+EXT.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "requestResult(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EDA7168-0C0C-43D8-8843-333017A55BD2"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Sources/Core/SSRequestDirect.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "requestArgument()"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "requestResult(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "785A01F9-A7EB-4FEF-B6F4-B0C5774CFB59"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../SSRequstHandler/Sources/SSBaseApi/SSBaseApi.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "-requestWithCompletionBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B6224AF-73FC-4250-9410-CB54E153265C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Sources/Core/SSRequestDirect+EXT.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "requestResult(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B6224AF-73FC-4250-9410-CB54E153265C - 6c06a3414374c00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SSRequestDirect.SSResult&lt;SwiftyJSON.JSON&gt;) -&gt; () in SSRequestDirect.SSPathRequest.requestResult(completion: (SSRequestDirect.SSResult&lt;SwiftyJSON.JSON&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SSRequestDirect"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ixiazer/Documents/2020-project/SSRequestDirect/Sources/Core/SSRequestDirect+EXT.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "5B6224AF-73FC-4250-9410-CB54E153265C - 319b6b2c05867136"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; SwiftyJSON.JSON in closure #1 (SSRequestDirect.SSResult&lt;SwiftyJSON.JSON&gt;) -&gt; () in SSRequestDirect.SSPathRequest.requestResult(completion: (SSRequestDirect.SSResult&lt;SwiftyJSON.JSON&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SSRequestDirect"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ixiazer/Documents/2020-project/SSRequestDirect/Sources/Core/SSRequestDirect+EXT.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "45">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65A8A7AD-4C24-4124-93CC-23078A975A0E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Sources/Core/SSRequestDirect+EXT.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "init(_:path:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

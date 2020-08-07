@@ -24,9 +24,7 @@ typedef NS_ENUM(NSInteger, SSRequestHandlerSessionType) {
 
 typedef NS_ENUM(NSInteger, SSRequestSerializerType) {
     SSRequestSerializerTypeHTTP = 0,
-    SSRequestSerializerTypeText = 1,
-    SSRequestSerializerTypeJSON = 2,
-    SSRequestSerializerTypeXML = 3
+    SSRequestSerializerTypeJSON = 1,
 };
 
 typedef NS_ENUM(NSInteger, SSResponseSerializerType) {

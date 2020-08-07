@@ -32,13 +32,13 @@
     [SSRequestSettingConfig defaultSettingConfig].plugins = @[[SSRequestTokenPlugin new], [SSRequestSignPlugin new], [SSRequestErrorFilterPlugin new]];
     [SSRequestSettingConfig defaultSettingConfig].isShowDebugInfo = true;
     [SSRequestSettingConfig defaultSettingConfig].service = [[SSRequestService alloc] initWithBaseUrl:@"https://**.******.com"];
+
     
-    
-    [self doGetRequest];
+//    [self doGetRequest];
 //    [self doPostRequest];
     
-//    ViewControllerSwift *vc = [[ViewControllerSwift alloc] init];
-//    [self.navigationController pushViewController:vc animated:true];
+    ViewControllerSwift *vc = [[ViewControllerSwift alloc] init];
+    [self.navigationController pushViewController:vc animated:true];
 }
 
 - (void)doGetRequest {

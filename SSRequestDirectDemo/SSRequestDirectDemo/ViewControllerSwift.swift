@@ -31,7 +31,16 @@ public class ViewControllerSwift: UIViewController {
         
         let api =  makeAPI("/gateway", method: .GET)
         api.arguments = initDic
-        api.requestResult { (result) in
+//        api.requestResult { (result) in
+//            result.withValue { (json) in
+//                // todo
+//                print("json.string==>>%@", json.string ?? "")
+//            }.withError { (error) in
+//                // todo
+//                print("error==>>%@",error)
+//            }
+//        }
+        api.requestData { (result) in
             result.withValue { (json) in
                 // todo
                 print("json.string==>>%@", json.string ?? "")

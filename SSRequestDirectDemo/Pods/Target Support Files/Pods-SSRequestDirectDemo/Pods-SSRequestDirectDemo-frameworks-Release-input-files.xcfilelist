@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-SSRequestDirectDemo/Pods-SSRequestDirectDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/SSRequestDirect/SSRequestDirect.framework
+${BUILT_PRODUCTS_DIR}/SSRequstHandler/SSRequstHandler.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
